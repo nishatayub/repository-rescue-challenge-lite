@@ -1,10 +1,11 @@
 # Environment Configuration
 
-These are the environment values the app is supposed to use.
+The application uses the following environment variables.
 
 ```text
 APP_PORT=8080
 API_URL=http://localhost:8080
 ```
 
-Update your local `.env` from these values before running the app.
+Set these values in your local environment before running the application.
+The application defaults to port 8080 if APP_PORT is not provided.
